@@ -1,0 +1,41 @@
+.location {
+    width: 100%;
+    max-width: 24em;
+    background-color:  rgba(41, 12, 121, 0.843);
+    padding: 1em 1.5em;
+    border-radius: 0.8em;
+    box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.363);
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location__name {
+    text-align: center;
+    color:  rgba(35, 174, 52, 0.948);
+    margin-bottom: 0.5em;
+}
+
+.location__info {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.location__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.location__label {
+    color: white;
+    font-weight: 700;
+}
+
+.location__value {
+    color: rgb(159, 151, 151);
+    font-weight: 400;
+}
