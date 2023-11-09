@@ -25,11 +25,10 @@
 }
 
 .app__title {
-    width: 25%;
+    width: 40%;
     padding: 1em;
     display: block;
     margin: auto;
-    
 }
 
 .app__form {
