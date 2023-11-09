@@ -1,6 +1,6 @@
 .location {
     width: 100%;
-    max-width: 24em;
+    max-width: 28em;
     background-color:  rgba(41, 12, 121, 0.843);
     padding: 1em 1.5em;
     border-radius: 0.8em;
@@ -8,6 +8,7 @@
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .location__name {

@@ -26,7 +26,7 @@ function App() {
   return (
     <div className='app'>
       <img className='app__image' src="../rickandmorty.png" alt="" />
-      <h1 className='app__title'>Rick and Morty</h1>
+      <h1 className='app__title'><img src="../rick-and-morty.png" alt="" /></h1>
       <form className='app__form' onSubmit={handleLocation}>
         <input className='app__input' ref={inputLocation} type="text" />
         <button className='app__btn'>Search</button>
@@ -36,7 +36,7 @@ function App() {
           ? <h2 className='app__loading'><h2>LOADING...</h2><img className='app__loading-image' src="../rick.png" alt="" /></h2>
           : (
             hasError || locationId === '0'
-              ? <h2>❌ You must provide an id from 1 to 126</h2>
+              ? <h2 className='app__error'>❌ You must provide an id from 1 to 126</h2>
               : (
                 <>
                   <InfoLocation location={location} />

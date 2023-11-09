@@ -13,6 +13,11 @@
     height: 50vh;
 }
 
+.app__error {
+    text-align: center;
+    color: whitesmoke;
+}
+
 .app__loading {
     font-size: 900;
     color: white;
@@ -20,10 +25,11 @@
 }
 
 .app__title {
-    font-size: 700;
-    color: aliceblue;
-    text-align: center;
+    width: 25%;
     padding: 1em;
+    display: block;
+    margin: auto;
+    
 }
 
 .app__form {
