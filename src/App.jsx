@@ -35,7 +35,7 @@ function App() {
         isLoading
           ? <h2 className='app__loading'><h2>LOADING...</h2><img className='app__loading-image' src="../rick.png" alt="" /></h2>
           : (
-            hasError || locationId === '0'
+            hasError || locationId === '0' || locationId === ''
               ? <h2 className='app__error'>❌ You must provide an id from 1 to 126</h2>
               : (
                 <>
